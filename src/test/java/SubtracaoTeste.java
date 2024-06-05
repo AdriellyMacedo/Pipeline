@@ -6,7 +6,7 @@ public class SubtracaoTeste {
     @Test
     public void TesteSubb() {
     	Subtracao calculator = new Subtracao();
-        assertEquals(4, calculator.subtract(6, 2)); 
+        assertEquals(6, calculator.subtract(6, 2)); 
     }
 	
 }
